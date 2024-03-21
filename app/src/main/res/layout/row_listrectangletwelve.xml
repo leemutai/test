@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/frameStackrectanglefourteen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <View
+            android:id="@+id/viewRectangleFourteen"
+            android:layout_width="match_parent"
+            android:layout_height="146dp"
+            android:layout_gravity="bottom|center"
+            android:background="@android:color/transparent"/>
+
+        <LinearLayout
+            android:id="@+id/linearColumnrectanglenine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="top|start"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginEnd="8dp">
+
+            <ImageView
+                android:id="@+id/imageRectangleNine"
+                android:layout_width="match_parent"
+                android:layout_height="155dp"
+                android:scaleType="fitXY"
+                android:background="@android:color/transparent"
+                android:src="@drawable/banner1"/>
+
+            <LinearLayout
+                android:id="@+id/linearRowloremhouse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="1px"
+                android:layout_marginStart="11dp"
+                android:layout_marginEnd="8dp">
+
+                <LinearLayout
+                    android:id="@+id/linearColumnloremhouse"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="0.84">
+
+                    <TextView
+                        android:id="@+id/txtLoremHouse"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:text="Lorem House"
+                        android:textSize="15sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/txtPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:singleLine="true"
+                        android:text="6000/month"
+                        android:textSize="11sp"/>
+
+                    <LinearLayout
+                        android:id="@+id/linearRowlinkedin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="4dp">
+
+                        <ImageView
+                            android:id="@+id/imageLinkedin"
+                            android:layout_width="10dp"
+                            android:layout_height="13dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/banner1"/>
+
+                        <TextView
+                            android:id="@+id/txtTimeZone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:text="Avenue West Si"
+                            android:textSize="11sp"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/btnBookmark"
+                    android:layout_width="32dp"
+                    android:layout_height="33dp"
+                    android:layout_marginStart="8dp"
+                    android:scaleType="fitCenter"
+                    android:src="@android:drawable/ic_menu_my_calendar"/>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>
